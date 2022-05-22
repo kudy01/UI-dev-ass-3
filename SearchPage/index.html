@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Hanuman&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="measure">
+          <input
+            class="search"
+            type="search"
+            name="item-search"
+            placeholder="Search"
+          />
+        </div>
+
+        <img
+          class="logo"
+          src="../assets/Logo.png"
+          alt="logo"
+          onClick="location.href='../HomePage/index.html'"
+        />
+        <img class="profile" src="../assets/profile.svg" alt="profile" />
+      </div>
+      <div class="nav-bar">
+        <div class="nav-items">
+          <p class="nav-text">SALE</p>
+          <p class="nav-text">BRANDS</p>
+          <p class="nav-text">EDUCATION</p>
+          <p class="nav-text">PRO AVL</p>
+          <p class="nav-text">ANTIQUES</p>
+          <p class="nav-text">ABOUT</p>
+          <p class="nav-text">SUPPORT</p>
+        </div>
+      </div>
+      <div class="search-header">
+        <img class="star" src="../assets/Star.svg" alt="star" />
+        <h1 class="search-result">Guitars</h1>
+        <p class="total-items">86 items</p>
+      </div>
+      <div class="dropdown-container">
+        <div class="dropdown">
+          <button onclick="toggleDropdown()" class="dropbtn">
+            Pickup In-Store
+            <img
+              class="icon-down"
+              src="../assets/chevron-down.svg"
+              alt="down"
+            />
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <span>Home Delivery</span>
+          </div>
+        </div>
+        <div id="relevancy" class="dropdown">
+          <button onclick="toggleDropdown1()" class="dropbtn">
+            Most Relevant
+            <img
+              class="icon-down"
+              src="../assets/chevron-down.svg"
+              alt="down"
+            />
+          </button>
+          <div id="myDropdown1" class="dropdown-content">
+            <span>Highest to Lowest</span>
+            <span>Lowest to Highest</span>
+          </div>
+        </div>
+      </div>
+      <div class="pickup-container">
+        <img src="../assets/map-pin-solid.svg" alt="map-pin" />
+        <p class="pickup-text">Picking up at <u>Northbrook Court</u></p>
+      </div>
+      <div class="product-container">
+        <div>
+          <div
+            id="vintage"
+            class="item-container"
+            onClick="location.href='../ProductPage/index.html'"
+          ></div>
+          <div class="product-color-container">
+            <div id="brown" class="product-color"></div>
+            <div id="grey" class="product-color"></div>
+            <div id="green" class="product-color"></div>
+          </div>
+          <p id="green" class="availability-text">New Arrival</p>
+          <h3>Vintage 1987 Guitar</h3>
+          <h4>$789.95</h4>
+        </div>
+        <div>
+          <div
+            id="vintage1980"
+            class="item-container"
+            onClick="location.href='../ProductPage/index.html'"
+          ></div>
+          <div class="product-color-container">
+            <div id="red" class="product-color"></div>
+            <div id="cyan" class="product-color"></div>
+            <div id="mustard" class="product-color"></div>
+          </div>
+          <p id="mustard" class="availability-text">Low on Stock</p>
+          <h3>Vintage 1980 Guitar</h3>
+          <h4>$995.95</h4>
+        </div>
+        <div>
+          <div
+            id="classic"
+            class="item-container"
+            onClick="location.href='../ProductPage/index.html'"
+          ></div>
+          <div class="product-color-container">
+            <div id="brown" class="product-color"></div>
+            <div id="grey" class="product-color"></div>
+            <div id="green" class="product-color"></div>
+          </div>
+          <p id="green" class="availability-text">Available</p>
+          <h3>Classic Guitar X</h3>
+          <h4>$1289.95</h4>
+        </div>
+        <div>
+          <div
+            id="electric"
+            class="item-container"
+            onClick="location.href='../ProductPage/index.html'"
+          ></div>
+          <div class="product-color-container">
+            <div id="orange" class="product-color"></div>
+            <div id="olive" class="product-color"></div>
+            <div id="blue" class="product-color"></div>
+          </div>
+          <p id="red" class="availability-text">Unavailable</p>
+          <h3>Electric Guitar ‘09</h3>
+          <h4>$789.95</h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

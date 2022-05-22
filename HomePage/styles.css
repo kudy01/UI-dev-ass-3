@@ -1,0 +1,39 @@
+.item-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 3vw;
+}
+
+.item-container {
+  width: 40vw;
+  height: 19.5vw;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+#piano.item-container {
+  background: url("../assets/piano.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ukelele.item-container {
+  background: url("../assets/ukulele.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#guitar.item-container {
+  background: url("../assets/homeGuitar.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pro.item-container {
+  background: url("../assets/ProAVL.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
