@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Hanuman&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="measure">
+          <input
+            class="search"
+            type="search"
+            name="item-search"
+            placeholder="Search"
+          />
+        </div>
+
+        <img
+          class="logo"
+          src="../assets/Logo.png"
+          alt="logo"
+          onClick="location.href='../HomePage/index.html'"
+        />
+        <img class="profile" src="../assets/profile.svg" alt="profile" />
+      </div>
+      <div class="nav-bar">
+        <div class="nav-items">
+          <p class="nav-text">SALE</p>
+          <p class="nav-text">BRANDS</p>
+          <p class="nav-text">EDUCATION</p>
+          <p class="nav-text">PRO AVL</p>
+          <p class="nav-text">ANTIQUES</p>
+          <p class="nav-text">ABOUT</p>
+          <p class="nav-text">SUPPORT</p>
+        </div>
+      </div>
+      <div class="product-container">
+        <div class="items-container">
+          <div class="cart-item-container">
+            <h2 class="cart-item-title">Vintage 1980 Guitar</h2>
+            <div class="image-detail-container">
+              <div id="vintage1980" class="image-item-container"></div>
+              <div>
+                <p class="price">$995.95</p>
+                <div class="color-container">
+                  <p>Color</p>
+                  <p>Beige</p>
+                </div>
+                <div id="qty" class="color-container">
+                  <p>Qty</p>
+                  <div id="relevancy" class="dropdown">
+                    <button
+                      id="qty"
+                      onclick="toggleDropdown2()"
+                      class="dropbtn"
+                    >
+                      1
+                      <img
+                        class="icon-down"
+                        src="../assets/chevron-down.svg"
+                        alt="down"
+                      />
+                    </button>
+                    <div id="myDropdown2" class="dropdown-content">
+                      <span>2</span>
+                      <span>3</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="classic" class="cart-item-container">
+            <h2 class="cart-item-title">Classic Guitar X</h2>
+            <div class="image-detail-container">
+              <div id="classic" class="image-item-container"></div>
+              <div>
+                <p class="price">$1289.95</p>
+                <div class="color-container">
+                  <p>Color</p>
+                  <p>Beige</p>
+                </div>
+                <div id="qty" class="color-container">
+                  <p>Qty</p>
+                  <div id="relevancy" class="dropdown">
+                    <button
+                      id="qty"
+                      onclick="toggleDropdown3()"
+                      class="dropbtn"
+                    >
+                      1
+                      <img
+                        class="icon-down"
+                        src="../assets/chevron-down.svg"
+                        alt="down"
+                      />
+                    </button>
+                    <div id="myDropdown3" class="dropdown-content">
+                      <span>2</span>
+                      <span>3</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+        <img class="divider" src="../assets/divider.svg" alt="divider" />
+        <div class="shopping-container">
+          <p class="shopping-cart">Shopping Cart</p>
+          <p class="total-text">2 items - Total $2285.90</p>
+          <div class="delivery-measure">
+            <input
+              class="delivery-search"
+              type="search"
+              name="item-search"
+              placeholder="Enter your postcode"
+            />
+            <i class="fas fa-crosshairs"></i>
+          </div>
+
+          <div class="deliver-button-container">
+            <button
+              onclick="showImage()"
+              id="buttonId"
+              class="unselected-button"
+            >
+              Check Delivery
+            </button>
+          </div>
+          <img
+            id="image"
+            style="display: none"
+            src="../assets/shipment.svg"
+            alt="shipment"
+          />
+          <div>
+            <p class="promo-text">Enter Promo code</p>
+            <div id="promo" class="delivery-measure">
+              <input
+                class="delivery-search"
+                type="search"
+                name="item-search"
+                placeholder="Enter your promo code"
+              />
+            </div>
+            <div class="deliver-button-container">
+              <button
+                onclick="showPromo()"
+                id="buttonId1"
+                class="unselected-button"
+              >
+                Apply
+              </button>
+              <p id="promo-success" style="display: none">Promo code succes!</p>
+            </div>
+            <div class="deliver-button-container">
+              <button
+                id="checkout"
+                class="selected-button"
+                onClick="location.href='../CheckoutPage/index.html'"
+              >
+                Checkout
+              </button>
+              <div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

@@ -67,14 +67,30 @@
           <p class="availability-text">New Arrival</p>
           <p class="name-text">Vintage 1987 Guitar</p>
           <p class="price-text">$789.95</p>
-          <div class="delivery-container">
-            <img src="../assets/delivery.svg" alt="delivery" /><i
-              class="fas fa-crosshairs"
-            ></i>
+          <div class="delivery-measure">
+            <input
+              class="delivery-search"
+              type="search"
+              name="item-search"
+              placeholder="Enter your postcode"
+            />
+            <i class="fas fa-crosshairs"></i>
           </div>
           <div class="deliver-button-container">
-            <button class="unselected-button">Check Delivery</button>
+            <button
+              onclick="showImage()"
+              id="buttonId"
+              class="unselected-button"
+            >
+              Check Delivery
+            </button>
           </div>
+          <img
+            id="image"
+            style="display: none"
+            src="../assets/shipment.svg"
+            alt="shipment"
+          />
           <p class="buy-container">Buy now. Pick up in store or order online</p>
           <div class="pay-container">
             <button
@@ -93,12 +109,12 @@
           </div>
           <div class="review-container">
             <img class="review-image" src="../assets/review.svg" alt="review" />
-            <button class="selected-button">Write a review</button>
+            <button class="unselected-button">Write a review</button>
           </div>
         </div>
       </div>
     </div>
 
-    <script src="./script.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>
