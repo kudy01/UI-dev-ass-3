@@ -123,6 +123,11 @@ body {
 
 .nav-text {
   position: relative;
+  cursor: pointer;
+}
+
+.nav-text:hover {
+  opacity: 0.6;
 }
 
 .dropbtn {
@@ -175,7 +180,6 @@ body {
 
 .show {
   display: block;
-  width: 12.5rem;
 }
 
 .newShow {
@@ -242,6 +246,11 @@ body {
 #checkout.selected-button {
   min-width: 20vw;
 }
+
+#final-confirm.selected-button {
+  min-width: 28vw;
+}
+
 .product-container {
   display: flex;
   flex-direction: row;
@@ -308,4 +317,70 @@ body {
 
 .divider {
   max-height: 80vh;
+}
+
+.details-container {
+  margin-left: 4vw;
+  text-align: center;
+  min-width: 36vw;
+}
+
+.summary-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2vh;
+}
+
+#confirmation.summary-text {
+  margin-top: 1vw;
+  margin-bottom: 0;
+}
+
+.shipping-text {
+  display: flex;
+  flex-direction: row;
+  opacity: 0.8;
+  justify-content: space-around;
+}
+
+.payment-details-rectangle {
+  width: 28vw;
+  height: 10.5vw;
+  margin-left: 4vw;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  border-style: none;
+  border-radius: 0.5rem;
+}
+.details-text {
+  margin: 0;
+  font-size: 0.75rem;
+  text-align: left;
+  padding-left: 1vw;
+}
+
+#top.details-text {
+  padding-top: 1vw;
+}
+
+#divider.details-text {
+  padding-bottom: 2vw;
+}
+
+.icon {
+  margin-left: 14vw;
+  max-width: 1vw;
+  margin-top: 4.5vw;
+}
+
+.checked-container {
+  padding-left: 3.5rem;
+  display: flex;
+  gap: 1.5vw;
+  margin-bottom: 0;
+}
+
+.card-details {
+  max-width: 30vw;
 }

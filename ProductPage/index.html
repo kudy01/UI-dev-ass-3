@@ -70,8 +70,8 @@
           <div class="delivery-measure">
             <input
               class="delivery-search"
-              type="search"
-              name="item-search"
+              type="postcode"
+              id="postcode"
               placeholder="Enter your postcode"
             />
             <i class="fas fa-crosshairs"></i>
@@ -79,12 +79,16 @@
           <div class="deliver-button-container">
             <button
               onclick="showImage()"
+              type="submit"
               id="buttonId"
               class="unselected-button"
             >
               Check Delivery
             </button>
           </div>
+          <p id="error" style="display: none; font-size: 0.75rem; color: red">
+            You have not entered any value for postcode
+          </p>
           <img
             id="image"
             style="display: none"

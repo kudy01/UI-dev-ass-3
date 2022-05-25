@@ -70,14 +70,22 @@ window.onclick = function (event) {
   }
 };
 
-function showImage() {
-  document.getElementById("image").style.display = "inline";
-
-  document.getElementById("buttonId").className = "selected-button";
+function showPromo() {
+  if (document.getElementById("promo-code").value) {
+    document.getElementById("promo-error").style.display = "none";
+    document.getElementById("promo-success").style.display = "block";
+  } else {
+    document.getElementById("promo-success").style.display = "none";
+    document.getElementById("promo-error").style.display = "block";
+  }
 }
 
-function showPromo() {
-  document.getElementById("promo-success").style.display = "block";
-
-  document.getElementById("buttonId1").className = "selected-button";
+function showImage() {
+  if (document.getElementById("postcode").value) {
+    document.getElementById("error").style.display = "none";
+    document.getElementById("image").style.display = "inline";
+  } else {
+    document.getElementById("error").style.display = "inline";
+    document.getElementById("image").style.display = "none";
+  }
 }

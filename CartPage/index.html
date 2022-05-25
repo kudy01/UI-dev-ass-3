@@ -127,8 +127,8 @@
           <div class="delivery-measure">
             <input
               class="delivery-search"
-              type="search"
-              name="item-search"
+              type="postcode"
+              id="postcode"
               placeholder="Enter your postcode"
             />
             <i class="fas fa-crosshairs"></i>
@@ -137,12 +137,16 @@
           <div class="deliver-button-container">
             <button
               onclick="showImage()"
+              type="submit"
               id="buttonId"
               class="unselected-button"
             >
               Check Delivery
             </button>
           </div>
+          <p id="error" style="display: none; font-size: 0.75rem; color: red">
+            You have not entered any value for postcode
+          </p>
           <img
             id="image"
             style="display: none"
@@ -154,8 +158,8 @@
             <div id="promo" class="delivery-measure">
               <input
                 class="delivery-search"
-                type="search"
-                name="item-search"
+                type="promo"
+                id="promo-code"
                 placeholder="Enter your promo code"
               />
             </div>
@@ -163,11 +167,15 @@
               <button
                 onclick="showPromo()"
                 id="buttonId1"
+                type="submit"
                 class="unselected-button"
               >
                 Apply
               </button>
-              <p id="promo-success" style="display: none; margin-bottom: 0;">Promo code succes!</p>
+              <p id="promo-error" style="display: none; font-size: 0.75rem; color: red">
+                You have not entered any promo code
+              </p>
+              <p id="promo-success" style="display: none; margin-bottom: 0;color: rgb(77, 190, 77)">Promo code succes!</p>
             </div>
             <div class="deliver-button-container">
               <button
