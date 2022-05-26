@@ -32,6 +32,8 @@
   }
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@700&display=swap");
+
 body {
   padding: 0;
   margin: 0;
@@ -262,6 +264,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   padding-right: 12vw;
+}
+
+#confirmation-page.items-container {
+  padding-left: 3vw;
+  padding-right: 0;
 }
 
 .cart-item-container {

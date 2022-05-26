@@ -45,8 +45,48 @@
         </div>
       </div>
       <div class="product-container">
-        <div style="padding-right: 50vw;"class="items-container">
-          testtts
+        <div id="confirmation-page" class="items-container">
+          <div class="acknowledge-container"> 
+            <div style="padding-top: 1.75vw;">
+              <div id="tick" class="green-tick"></div>
+            </div>
+            <div>
+              <p class="thanks-text">Thank you!</p>
+              <p style="margin-top: 0">Your order #BE12345 has been placed.</p>
+            </div>
+          </div>
+          <p class="confirmation-text">We sent an email to orders@banuelson.com with your order confirmation and bill. </p>
+          <p class="confirmation-text">Time placed: 17/03/2022 12:45 AEST</p>
+          <p class="final-item-order-text">Order Items</p>
+          <div class="final-item-container">
+            <div class="box-container">
+              <div id="vintage1980" class="final-image-container"></div>
+              <div>
+                <p class="name-text">Vintage 1980 Guitar</p>
+                <p class="color-text">Color: Beige</p>
+                <div class="text-box-container">
+                  <p class="color-text">Qty: 1</p>
+                  <p class="final-price-text">$995.95</p>
+                </div>
+              </div>
+            </div>
+            <img
+              class="delivery-image"
+              src="../assets/shipment.svg"
+              alt="shipment"
+            />
+            <div class="box-container">
+              <div id="classic" class="final-image-container"></div>
+              <div>
+                <p class="name-text">Classic Guitar X</p>
+                <p class="color-text">Color: Beige</p>
+                <div class="text-box-container">
+                  <p class="color-text">Qty: 1</p>
+                  <p class="final-price-text">$1289.95</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <img class="divider" src="../assets/divider.svg" alt="divider" />
         <div class="details-container">
@@ -71,7 +111,7 @@
             <p style="font-size: 1rem;">Billing and delivery addresses are same.</p>
           </div>
           <div class="shipping-text">
-            <p class="payment-text">Payment</p>
+            <p style="font-weight: 700;" class="payment-text">Payment</p>
             <p class="payment-text" style="cursor: pointer;" onclick="location.href='../CheckoutPage/index.html'"><u> Add/Edit</u></p>
           </div>
           <img class="card-details" src="../assets/cardDetails.png" alt="card-details">

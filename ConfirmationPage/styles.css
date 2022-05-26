@@ -1,3 +1,11 @@
+.green-tick {
+  height: 5vw;
+  min-width: 6vw;
+  background: url("../assets/greenTick.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .payment-text {
   margin: 0;
 }
@@ -22,4 +30,91 @@
 
 #last.order-summary-text {
   margin-bottom: 1vw;
+}
+
+.acknowledge-container {
+  display: flex;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+
+.thanks-text {
+  margin-bottom: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.confirmation-text {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.final-item-order-text {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  padding-left: 18vw;
+}
+
+.final-item-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+}
+
+.final-item {
+  width: 40vw;
+  height: 9vw;
+  background-color: aquamarine;
+}
+
+.delivery-image {
+  max-width: 30vw;
+  height: 6vw;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.final-image-container {
+  width: 8vw;
+  height: 9vw;
+}
+
+#vintage1980.final-image-container {
+  background: url("../assets/vintage1980.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#classic.final-image-container {
+  background: url("../assets/classicGuitar.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name-text {
+  margin-top: 0.25rem;
+  margin-left: 0.75rem;
+}
+
+.color-text {
+  margin-top: 0;
+  padding-left: 1.75rem;
+  margin-bottom: 0;
+  color: #868e96;
+  font-size: 0.85rem;
+}
+
+.text-box-container {
+  display: flex;
+  flex-direction: row;
+  gap: 13.5vw;
+}
+
+.final-price-text {
+  font-weight: 700;
 }
