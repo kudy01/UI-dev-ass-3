@@ -1,3 +1,12 @@
+var input = document.getElementById("item-search");
+
+input.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("search-btn").click();
+  }
+});
+
 function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }

@@ -17,12 +17,16 @@
     <div class="main">
       <div class="header">
         <div class="measure">
-          <input
-            class="search"
-            type="search"
-            name="item-search"
-            placeholder="Search"
-          />
+          <form action="../SearchPage/index.html">
+            <input
+              id="item-search"
+              class="search"
+              type="text"
+              placeholder="Search"
+              required
+            />
+            <input style="display: none" id="search-btn" type="submit" />
+          </form>
         </div>
 
         <img
@@ -69,5 +73,6 @@
         ></div>
       </div>
     </div>
+    <script src="../script.js"></script>
   </body>
 </html>
