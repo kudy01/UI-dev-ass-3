@@ -271,6 +271,11 @@ body {
   padding-right: 0;
 }
 
+#checkout-page.items-container {
+  padding-left: 3vw;
+  padding-right: 2vw;
+}
+
 .cart-item-container {
   padding-top: 3rem;
 }
@@ -339,6 +344,12 @@ body {
 }
 
 #confirmation.summary-text {
+  margin-top: 1vw;
+  margin-bottom: 0;
+}
+
+#address.summary-text {
+  text-align: center;
   margin-top: 1vw;
   margin-bottom: 0;
 }

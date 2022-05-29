@@ -44,9 +44,205 @@
           <p class="nav-text">SUPPORT</p>
         </div>
       </div>
-      <button onClick="location.href='../FinalCheckoutPage/index.html'">
-        test
-      </button>
+      <form action="../FinalCheckoutPage/index.html">
+        <div class="product-container">
+          <div id="checkout-page" class="items-container">
+            <p id="address" class="summary-text">Add Address</p>
+            <span class="required-field-text">*Required fields.</span>
+            <div class="steps-container">
+              <img src="../assets/Step1.svg" alt="step-1" />
+              <p class="steps-text">Recipents Information</p>
+            </div>
+            <div class="input-container">
+              <div class="float-container">
+                <label for="field1">Name and Surname*</label>
+                <input
+                  id="field1"
+                  type="text"
+                  data-placeholder="Enter your full name"
+                  required
+                />
+              </div>
+              <div class="float-container">
+                <label for="field2">Phone Number*</label>
+                <input
+                  id="field2"
+                  type="text"
+                  data-placeholder="Enter your phone number"
+                  required
+                />
+              </div>
+            </div>
+            <span class="required-field-text"
+              >For shipping related questions only.</span
+            >
+            <div class="input-container">
+              <div class="float-container">
+                <label for="field3">E-mail Address*</label>
+                <input
+                  id="field3"
+                  type="email"
+                  data-placeholder="Enter your email"
+                  required
+                />
+              </div>
+            </div>
+            <span class="required-field-text"
+              >This address will be used to send you order and bill
+              details.</span
+            >
+            <div class="steps-container">
+              <img src="../assets/Step2.svg" alt="step-2" />
+              <p class="steps-text">Shipping Address</p>
+            </div>
+            <div class="input-container">
+              <div class="float-container">
+                <label for="field4">Address Title (Optional)</label>
+                <input
+                  id="field4"
+                  type="text"
+                  data-placeholder="Enter type of address"
+                />
+              </div>
+              <div class="float-container">
+                <label for="field5">Address*</label>
+                <input
+                  id="field5"
+                  class="crosshairs"
+                  type="text"
+                  data-placeholder="Enter your address"
+                  required
+                />
+              </div>
+            </div>
+            <div style="max-width: 50vw; padding-bottom: 1rem">
+              <span class="required-field-text"
+                >For estimating if the place is opened or closed on the
+                weekends.</span
+              >
+              <span class="additional-street"
+                >+ Street Address 2 (Optional)</span
+              >
+            </div>
+            <div class="input-container">
+              <div class="float-container">
+                <label for="field6">City*</label>
+                <input
+                  required
+                  id="field6"
+                  type="text"
+                  data-placeholder="Enter your city"
+                />
+              </div>
+              <div class="float-container">
+                <label for="field7">Country*</label>
+                <input
+                  id="field7"
+                  type="text"
+                  data-placeholder="Enter your country"
+                  required
+                />
+              </div>
+            </div>
+            <div class="steps-container">
+              <img src="../assets/Step3.svg" alt="step-3" />
+              <p class="steps-text">Billing Information</p>
+            </div>
+            <div id="footer" class="input-container">
+              <div>
+                <span class="step3-text">Billing Address*</span>
+                <div style="padding-top: 0.5rem">
+                  <label class="container"
+                    >Same as delivery address.
+                    <input id="checkbox" type="checkbox" checked />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+              <div>
+                <span class="step3-text">Billing Type*</span>
+                <div style="padding-top: 0.5rem">
+                  <label style="font-size: 0.9rem">
+                    <input
+                      id="radio"
+                      type="radio"
+                      checked="checked"
+                      name="radio"
+                      required
+                    />
+                    <span></span>
+                    Personal
+                  </label>
+                  <label style="font-size: 0.9rem; padding-left: 4vw">
+                    <input id="radio" type="radio" name="radio" required />
+                    <span></span>
+                    Commercial
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="divider" src="../assets/divider.svg" alt="divider" />
+          <div class="details-container">
+            <p id="confirmation" class="summary-text">Secure Payment</p>
+            <div class="add-payment-container">
+              <div class="wallet-container">
+                <img src="../assets/wallet.svg" alt="wallet" />
+                <p style="padding-top: 0.25vw">Add Credit / Debit Card</p>
+              </div>
+              <div style="padding-bottom: 1rem">
+                <input
+                  class="card-dets-input"
+                  type="text"
+                  placeholder="Card Holder’s Name"
+                  required
+                />
+              </div>
+              <input
+                class="card-dets-input"
+                type="text"
+                placeholder="Card Number"
+                required
+              />
+              <div class="wallet-container">
+                <p style="margin-top: 0; padding-left: 0.75rem">Expire Date</p>
+              </div>
+              <div class="year-container">
+                <input
+                  id="footer"
+                  class="card-dets-input"
+                  type="text"
+                  placeholder="Month"
+                  required
+                />
+                <input
+                  id="footer"
+                  class="card-dets-input"
+                  type="text"
+                  placeholder="Year"
+                  required
+                />
+              </div>
+              <div style="padding-top: 1rem" class="year-container">
+                <input
+                  id="footer"
+                  class="card-dets-input"
+                  type="text"
+                  placeholder="Security Code"
+                  required
+                />
+                <img class="info" src="../assets/info.svg" alt="info" />
+              </div>
+            </div>
+            <div class="button-container">
+              <button type="reset" class="unselected-button">Reset</button>
+              <button type="submit" class="selected-button">Save</button>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
