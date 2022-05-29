@@ -131,7 +131,7 @@
 
 .add-payment-container {
   width: 33.5vw;
-  height: 35vw;
+  min-height: 35vw;
   background-color: #f5f5f5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
