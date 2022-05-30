@@ -170,6 +170,9 @@ h4 {
   .total-items {
     padding-left: 90vw;
   }
+  .show {
+    width: 23vw;
+  }
 }
 
 /* Tablets */
@@ -200,6 +203,10 @@ h4 {
     justify-content: space-around;
   }
 
+  .show {
+    width: 40.5vw;
+  }
+
   .product-container {
     flex-direction: column;
   }
@@ -212,6 +219,10 @@ h4 {
   .dropbtn {
     width: 41vw;
     padding: 0.5rem;
+  }
+
+  .dropdown-content span {
+    padding: 4px 6px;
   }
 
   .total-items {
@@ -233,6 +244,14 @@ h4 {
   .item-container {
     width: 34vw;
     height: 38.5vw;
+  }
+
+  .dropdown-content span {
+    padding: 4px 6px;
+  }
+
+  .show {
+    width: 40.5vw;
   }
 
   .dropbtn {
