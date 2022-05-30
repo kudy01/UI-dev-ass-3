@@ -97,14 +97,28 @@ body {
 .logo {
   height: auto;
   max-width: 18vw;
-  margin-left: 21.5vw;
+  margin-left: 23.5vw;
   margin-right: auto;
   display: block;
   cursor: pointer;
 }
 
 .profile {
-  padding-top: 2.5rem;
+  padding-top: 4rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-user {
+  margin-right: 0.5rem;
+}
+
+.fa-user:hover {
+  opacity: 0.7;
+}
+
+.fa-shopping-bag:hover {
+  opacity: 0.7;
 }
 
 .nav-bar {
