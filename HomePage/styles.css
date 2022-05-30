@@ -37,3 +37,24 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media only screen and (max-width: 600px) {
+  .item-row {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    padding-left: 12vw;
+  }
+
+  .item-container {
+    width: 72vw;
+    height: 39.5vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .item-container {
+    width: 47vw;
+    height: 25.5vw;
+  }
+}

@@ -157,3 +157,90 @@ h4 {
 h4 {
   font-size: 1.15vw;
 }
+
+.mobile-product-container {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 7vw;
+}
+
+/* Large Tablets */
+@media only screen and (max-width: 768px) {
+  .total-items {
+    padding-left: 90vw;
+  }
+}
+
+/* Tablets */
+@media only screen and (max-width: 600px) {
+  .mobile-product-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .product-container {
+    flex-direction: column;
+  }
+
+  .item-container {
+    width: 24vw;
+    height: 27.5vw;
+  }
+
+  .total-items {
+    padding-left: 86vw;
+  }
+}
+
+/* Most phones */
+@media only screen and (min-width: 375px) and (max-width: 428px) {
+  .mobile-product-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .product-container {
+    flex-direction: column;
+  }
+
+  .item-container {
+    width: 30vw;
+    height: 36.5vw;
+  }
+
+  .dropbtn {
+    width: 33vw;
+    padding: 0.5rem;
+  }
+
+  .total-items {
+    padding-left: 81vw;
+  }
+}
+
+/* Small phones */
+@media only screen and (max-width: 375px) {
+  .mobile-product-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .product-container {
+    flex-direction: column;
+  }
+
+  .item-container {
+    width: 34vw;
+    height: 38.5vw;
+  }
+
+  .dropbtn {
+    width: 33vw;
+    padding: 0.25rem;
+    font-size: 0.75rem;
+  }
+  .total-items {
+    padding-left: 81vw;
+  }
+}

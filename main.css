@@ -1,37 +1,3 @@
-/* ===========================
-   ====== Search Box ====== 
-   =========================== */
-/*
-.search {
-  border: 2px solid white;
-  opacity: 20;
-  max-width: 367px;
-  overflow: auto;
-  border-radius: 5px;
-}
-
-.placeholder {
-  text-align: left;
-}
-
-.search input[type="text"] {
-  border: 0px;
-  width: 67%;
-  padding: 10px 10px;
-}
-
-.search input[type="text"]:focus {
-  outline: 0;
-}
-
-
-@media only screen and (min-width: 150px) and (max-width: 780px) {
-  .search {
-    width: 95%;
-    margin: 0 auto;
-  }
-} */
-
 @import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@700&display=swap");
 
 body {
@@ -67,6 +33,10 @@ body {
 }
 .search::placeholder {
   text-align: center;
+}
+
+.mobile-search {
+  display: none;
 }
 
 .delivery-measure {
@@ -442,4 +412,41 @@ body {
   font-size: 0.9rem;
   margin-top: 0.5vw;
   padding-right: 3rem;
+}
+
+.topnav {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-search-container {
+    padding-top: 1rem;
+    padding-left: 3vw;
+  }
+
+  .mobile-search {
+    display: block;
+    border: none;
+    background-color: #f3f3f385;
+    display: block;
+    border-radius: 0.5rem;
+    opacity: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 90vw;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .mobile-search::placeholder {
+    text-align: center;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
 }
