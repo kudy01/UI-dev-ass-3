@@ -127,6 +127,10 @@
                   data-placeholder="Enter type of address"
                 />
               </div>
+              <span id="mobile-show" class="required-field-text"
+                >For estimating if the place is opened or closed on the
+                weekends.</span
+              >
               <div class="float-container">
                 <label for="field5">Address*</label>
                 <input
@@ -138,8 +142,11 @@
                 />
               </div>
             </div>
-            <div style="max-width: 50vw; padding-bottom: 1rem">
-              <span class="required-field-text"
+            <div
+              class="tab-container"
+              style="max-width: 50vw; padding-bottom: 1rem"
+            >
+              <span id="mobile-hide" class="required-field-text"
                 >For estimating if the place is opened or closed on the
                 weekends.</span
               >
@@ -182,10 +189,10 @@
                   </label>
                 </div>
               </div>
-              <div>
+              <div class="tab-des">
                 <span class="step3-text">Billing Type*</span>
                 <div style="padding-top: 0.5rem">
-                  <label style="font-size: 0.9rem">
+                  <label style="font-size: 1rem">
                     <input
                       id="radio"
                       type="radio"
@@ -196,7 +203,7 @@
                     <span></span>
                     Personal
                   </label>
-                  <label style="font-size: 0.9rem; padding-left: 4vw">
+                  <label style="font-size: 1rem; padding-left: 4vw">
                     <input id="radio" type="radio" name="radio" required />
                     <span></span>
                     Commercial

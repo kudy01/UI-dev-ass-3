@@ -9,7 +9,7 @@
 }
 
 .steps-text {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .input-container {
@@ -58,7 +58,7 @@
   color: #868e96;
 }
 .float-container.active label {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #868e96;
   transform: translate(0, 0.25rem) scale(0.75);
 }
@@ -73,7 +73,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* Hide the browser's default checkbox */
@@ -126,7 +126,7 @@
 }
 
 .step3-text {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .add-payment-container {
@@ -190,4 +190,260 @@
 
 .additional-street:hover {
   opacity: 0.8;
+}
+
+#mobile-show.required-field-text {
+  display: none;
+}
+
+/* Large Tablets */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  #address.summary-text {
+    font-size: 1.75rem;
+  }
+
+  #confirmation.summary-text {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .add-payment-container {
+    min-height: 48vw;
+    width: 38vw;
+  }
+
+  .card-dets-input {
+    height: 6vw;
+  }
+
+  #footer.card-dets-input {
+    width: 16vw;
+  }
+
+  .year-container {
+    gap: 2vw;
+    margin-left: 0.75rem;
+  }
+
+  .tab-container {
+    display: flex;
+  }
+
+  .float-container label {
+    font-size: 0.9rem;
+  }
+
+  .divider {
+    max-height: 100vh;
+  }
+
+  #footer.input-container {
+    display: block;
+  }
+
+  .container .checkmark:after {
+    left: 1vw;
+    top: 0.5vw;
+    width: 0.6vw;
+  }
+
+  .tab-des {
+    padding-top: 1rem;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  #checkout-page.items-container {
+    padding-right: 0;
+  }
+
+  .card-dets-input {
+    min-width: 34vw;
+  }
+
+  .unselected-button {
+    width: 17vw;
+  }
+
+  .selected-button {
+    width: 17vw;
+  }
+
+  .button-container {
+    padding-left: 0.5rem;
+  }
+
+  .crosshairs {
+    background-position: 19vw 11px;
+  }
+}
+
+/* Tablets */
+@media only screen and (max-width: 600px) {
+  #address.summary-text {
+    font-size: 1.75rem;
+  }
+
+  #confirmation.summary-text {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .add-payment-container {
+    min-height: 48vw;
+    width: 38vw;
+  }
+
+  .card-dets-input {
+    min-width: 34vw;
+  }
+
+  .card-dets-input {
+    height: 6vw;
+  }
+
+  #footer.card-dets-input {
+    width: 16vw;
+  }
+
+  .year-container {
+    gap: 2vw;
+    margin-left: 0.75rem;
+  }
+
+  .tab-container {
+    display: flex;
+  }
+
+  .float-container label {
+    font-size: 0.9rem;
+  }
+
+  .divider {
+    max-height: 100vh;
+  }
+
+  #footer.input-container {
+    display: block;
+  }
+
+  .container .checkmark:after {
+    left: 1vw;
+    top: 0.5vw;
+    width: 0.6vw;
+  }
+
+  .tab-des {
+    padding-top: 1rem;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  #checkout-page.items-container {
+    padding-right: 0;
+  }
+
+  .unselected-button {
+    width: 17vw;
+  }
+
+  .selected-button {
+    width: 17vw;
+  }
+
+  .button-container {
+    padding-left: 0.5rem;
+  }
+
+  .crosshairs {
+    background-position: 19vw 11px;
+  }
+}
+
+/* All phones */
+@media only screen and (max-width: 428px) {
+  #address.summary-text {
+    font-size: 1.25rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .input-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .product-container {
+    flex-direction: column;
+  }
+
+  #mobile-hide.required-field-text {
+    display: none;
+  }
+
+  #mobile-show.required-field-text {
+    display: block;
+  }
+
+  .additional-street {
+    padding-left: 0;
+  }
+
+  .container .checkmark:after {
+    left: 2.5vw;
+    top: 1.3vw;
+    width: 0.6vw;
+  }
+
+  #footer.input-container {
+    gap: 5vw;
+  }
+
+  #confirmation.summary-text {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .add-payment-container {
+    width: 92vw;
+    height: 84vw;
+  }
+
+  .wallet-container {
+    gap: 1.5vw;
+  }
+
+  .card-dets-input {
+    width: 73vw;
+    min-height: 10vw;
+  }
+
+  #footer.card-dets-input {
+    width: 36vw;
+  }
+
+  .year-container {
+    display: flex;
+    gap: 6vw;
+  }
+
+  .unselected-button {
+    width: 40vw;
+  }
+
+  .selected-button {
+    width: 40vw;
+  }
+
+  .crosshairs {
+    background-position: 83vw 11px !important;
+  }
 }
