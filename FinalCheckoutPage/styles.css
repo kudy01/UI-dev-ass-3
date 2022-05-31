@@ -13,3 +13,228 @@
   color: #868e96;
   margin: 0;
 }
+
+#mobile-show.summary-text {
+  display: none;
+}
+
+.checked-image {
+  max-width: 1.5vw;
+}
+
+.icon-image {
+  padding-left: 11vw;
+}
+
+/* Large Tablets */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .divider {
+    display: none;
+  }
+
+  .items-container {
+    padding-right: 0;
+  }
+
+  .image-item-container {
+    width: 22vw;
+    height: 24.5vw;
+  }
+
+  .summary-text {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .payment-details-rectangle {
+    width: 35vw;
+    height: 15.5vw;
+  }
+
+  .checked-image {
+    max-width: 2.5vw;
+  }
+
+  .checked-container {
+    padding-left: 1.8rem;
+    gap: 0.5vw;
+  }
+
+  .icon {
+    margin-left: 14vw;
+    max-width: 2vw;
+    margin-top: 5.5vw;
+  }
+
+  .card-details-container {
+    width: 34.5vw;
+  }
+
+  .card-number {
+    padding-right: 0;
+  }
+
+  .icon-image {
+    padding-left: 4vw;
+  }
+  .selected-button {
+    width: 19vw;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 428px) and (max-width: 600px) {
+  .divider {
+    display: none;
+  }
+
+  .items-container {
+    padding-right: 0;
+  }
+
+  .image-item-container {
+    width: 22vw;
+    height: 24.5vw;
+  }
+
+  .summary-text {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .payment-details-rectangle {
+    width: 35vw;
+    height: 15.5vw;
+  }
+
+  .checked-image {
+    max-width: 2.5vw;
+  }
+
+  .checked-container {
+    padding-left: 1.8rem;
+    gap: 0.5vw;
+  }
+
+  .icon {
+    margin-left: 14vw;
+    max-width: 2vw;
+    margin-top: 5.5vw;
+  }
+
+  .card-details-container {
+    width: 34.5vw;
+  }
+
+  .card-number {
+    padding-right: 0;
+  }
+
+  .icon-image {
+    padding-left: 4vw;
+  }
+  .selected-button {
+    width: 19vw;
+  }
+}
+
+/* All phones */
+@media only screen and (max-width: 428px) {
+  .divider {
+    display: none;
+  }
+
+  .product-container {
+    flex-direction: column;
+  }
+
+  #mobile-hide.summary-text {
+    display: none;
+  }
+
+  #mobile-show.summary-text {
+    display: block;
+    margin-top: 0;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .cart-item-container {
+    padding-top: 1rem;
+  }
+
+  .cart-item-title {
+    font-size: 1.25rem;
+  }
+
+  .image-item-container {
+    width: 40vw;
+    height: 43.5vw;
+  }
+
+  .items-container {
+    padding-right: 0;
+  }
+
+  #qty.dropbtn {
+    width: 26vw;
+  }
+
+  .newShow {
+    width: 26vw;
+  }
+
+  .color-container {
+    gap: 19vw;
+    padding-left: 1rem;
+    justify-content: flex-start;
+  }
+
+  .total-text {
+    display: none;
+  }
+
+  .payment-details-rectangle {
+    width: 86vw;
+    height: 29.5vw;
+  }
+
+  #top.details-text {
+    padding-top: 3vw;
+  }
+
+  .details-text {
+    font-size: 0.9rem;
+  }
+
+  .icon {
+    margin-left: 35vw;
+    max-width: 3vw;
+    margin-top: 11.5vw;
+  }
+
+  .checked-image {
+    max-width: 5.5vw;
+  }
+
+  .checked-container {
+    gap: 3.5vw;
+    padding-left: 0.5rem;
+  }
+
+  .card-details-container {
+    width: 85vw;
+  }
+
+  .icon-image {
+    padding-left: 24vw;
+  }
+
+  .card-name {
+    margin-top: 1rem;
+  }
+
+  .selected-button {
+    width: 37vw;
+  }
+}
