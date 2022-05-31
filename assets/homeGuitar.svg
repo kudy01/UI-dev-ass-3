@@ -1,5 +1,10 @@
 <svg width="674" height="363" viewBox="0 0 674 363" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g>
 <rect width="674" height="363" fill="url(#pattern0)"/>
+<text x="440" y="200" font-family="Hanuman" font-size="26" font-weight="700" fill="black">Jackson Guitars</text>
+<text x="440" y="240" font-family="Hanuman" font-size="26" font-weight="700" fill="red">$2500</text>
+<text x="440" y="260" font-family="Hanuman" font-size="18" font-weight="700" fill="black">onwards</text>
+</g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_7_6242" transform="translate(-0.102354) scale(0.0014173 0.00263158)"/>

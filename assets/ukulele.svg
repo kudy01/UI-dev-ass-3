@@ -1,6 +1,9 @@
 <svg width="682" height="371" viewBox="0 0 682 371" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_d_7_6241)">
 <rect x="4" width="674" height="363" fill="url(#pattern0)" shape-rendering="crispEdges"/>
+<text x="140" y="50" font-family="Hanuman" font-size="26" font-weight="700" fill="white">Ukeleles</text>
+<text x="470" y="50" font-family="Hanuman" font-size="26" font-weight="700" fill="red">$250</text>
+<text x="470" y="70" font-family="Hanuman" font-size="18" font-weight="700" fill="black">onwards</text>
 </g>
 <defs>
 <filter id="filter0_d_7_6241" x="0" y="0" width="682" height="371" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
