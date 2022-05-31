@@ -82,7 +82,9 @@
             We sent an email to orders@banuelson.com with your order
             confirmation and bill.
           </p>
-          <p class="confirmation-text">Time placed: 17/03/2022 12:45 AEST</p>
+          <p id="tab-last" class="confirmation-text">
+            Time placed: 17/03/2022 12:45 AEST
+          </p>
           <p class="final-item-order-text">Order Items</p>
           <div class="final-item-container">
             <div class="box-container">
@@ -138,7 +140,7 @@
           </button>
           <div class="checked-container">
             <img
-              style="max-width: 1.5vw"
+              class="checked-image"
               src="../assets/checked.svg"
               alt="checked"
             />
@@ -166,11 +168,7 @@
               <p class="card-name">My Virtual Debit Card</p>
               <p class="card-number">&#x25cf; &#x25cf; &#x25cf; 8553</p>
             </div>
-            <img
-              style="padding-left: 11vw"
-              src="../assets/icon.svg"
-              alt="icon"
-            />
+            <img class="icon-image" src="../assets/icon.svg" alt="icon" />
           </div>
           <div>
             <p class="confirmation-footer">Order Summary</p>
@@ -178,17 +176,19 @@
               <p class="order-summary-text">Subtotal</p>
               <p class="order-summary-text">$2285.90</p>
             </div>
-            <div class="order-summary-container">
+            <div id="mobile-last" class="order-summary-container">
               <p class="order-summary-text">Shipping</p>
               <p id="last" class="order-summary-text">$0.0</p>
             </div>
-            <button
-              id="final-confirm"
-              onClick="location.href='../HomePage/index.html'"
-              class="selected-button"
-            >
-              Back to Shopping
-            </button>
+            <div class="mobile-button-container">
+              <button
+                id="final-confirm"
+                onClick="location.href='../HomePage/index.html'"
+                class="selected-button"
+              >
+                Back to Shopping
+              </button>
+            </div>
           </div>
         </div>
       </div>
