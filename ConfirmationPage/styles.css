@@ -362,6 +362,7 @@
 
   .details-text {
     font-size: 0.9rem;
+    color: black !important;
   }
 
   .icon {
