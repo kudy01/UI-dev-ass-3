@@ -11,7 +11,6 @@ function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
 window.onclick = function (event) {
   if (!event.target.matches(".dropbtn")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -29,7 +28,6 @@ function toggleDropdown1() {
   document.getElementById("myDropdown1").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
 window.onclick = function (event) {
   if (!event.target.matches(".dropbtn")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -47,7 +45,6 @@ function toggleDropdown2() {
   document.getElementById("myDropdown2").classList.toggle("newShow");
 }
 
-// Close the dropdown if the user clicks outside of it
 window.onclick = function (event) {
   if (!event.target.matches(".dropbtn")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -65,7 +62,6 @@ function toggleDropdown3() {
   document.getElementById("myDropdown3").classList.toggle("newShow");
 }
 
-// Close the dropdown if the user clicks outside of it
 window.onclick = function (event) {
   if (!event.target.matches(".dropbtn")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -97,4 +93,12 @@ function showImage() {
     document.getElementById("error").style.display = "inline";
     document.getElementById("image").style.display = "none";
   }
+}
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
 }
