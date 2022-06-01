@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding-top: 3vw;
+  padding-top: 2rem;
 }
 
 .item-container {
@@ -38,6 +38,10 @@
   background-size: cover;
 }
 
+.mobile-row-icons {
+  display: none;
+}
+
 /* phones */
 
 @media only screen and (max-width: 600px) {
@@ -45,12 +49,25 @@
     flex-direction: column;
     gap: 2rem;
     align-items: flex-start;
-    padding-left: 12vw;
+    padding-left: 0;
+  }
+
+  #first.item-row {
+    padding-top: 0;
+  }
+
+  .icons-start {
+    cursor: pointer;
+    width: 24vw;
   }
 
   .item-container {
-    width: 72vw;
-    height: 39.5vw;
+    width: 100vw;
+    height: 54.5vw;
+  }
+
+  .mobile-row-icons {
+    display: flex;
   }
 }
 
@@ -58,7 +75,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .item-container {
-    width: 47vw;
-    height: 25.5vw;
+    width: 100vw;
+    height: 52vw;
   }
 }
