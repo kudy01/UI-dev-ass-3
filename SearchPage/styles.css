@@ -36,6 +36,8 @@
 .pickup-text {
   padding-left: 0.4rem;
   font-size: 0.875rem;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .product-container {
@@ -182,7 +184,7 @@ h4 {
   }
 
   .availability-text {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
@@ -203,7 +205,7 @@ h4 {
   }
 
   .item-container {
-    width: 24vw;
+    width: 26vw;
     height: 27.5vw;
   }
 
@@ -217,7 +219,7 @@ h4 {
   }
 
   .availability-text {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
@@ -237,7 +239,7 @@ h4 {
   }
 
   .item-container {
-    width: 30vw;
+    width: 34vw;
     height: 36.5vw;
   }
 
@@ -261,7 +263,7 @@ h4 {
   }
 
   .availability-text {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .product-color {
@@ -315,6 +317,6 @@ h4 {
   }
 
   .availability-text {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
