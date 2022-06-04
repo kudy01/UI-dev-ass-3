@@ -1,5 +1,6 @@
 var input = document.getElementById("item-search");
 
+// To make the search input tag simulate a button click on enter
 input.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
@@ -7,6 +8,7 @@ input.addEventListener("keypress", function (event) {
   }
 });
 
+// To toggle the dropdown on the different sliders present
 function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -24,6 +26,7 @@ window.onclick = function (event) {
   }
 };
 
+// To toggle the dropdown on the different sliders present
 function toggleDropdown1() {
   document.getElementById("myDropdown1").classList.toggle("show");
 }
@@ -41,6 +44,7 @@ window.onclick = function (event) {
   }
 };
 
+// To toggle the dropdown on the different sliders present
 function toggleDropdown2() {
   document.getElementById("myDropdown2").classList.toggle("newShow");
 }
@@ -58,6 +62,7 @@ window.onclick = function (event) {
   }
 };
 
+// To toggle the dropdown on the different sliders present
 function toggleDropdown3() {
   document.getElementById("myDropdown3").classList.toggle("newShow");
 }
@@ -75,6 +80,7 @@ window.onclick = function (event) {
   }
 };
 
+// To show the promo code error/success messages
 function showPromo() {
   if (document.getElementById("promo-code").value) {
     document.getElementById("promo-error").style.display = "none";
@@ -85,6 +91,7 @@ function showPromo() {
   }
 }
 
+// To show the shipping message upon entering postcode
 function showImage() {
   if (document.getElementById("postcode").value) {
     document.getElementById("error").style.display = "none";
@@ -95,6 +102,7 @@ function showImage() {
   }
 }
 
+// Functions to open and close the hamburger nav menu in the mobile version
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
